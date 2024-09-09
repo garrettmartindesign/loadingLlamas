@@ -90,27 +90,27 @@ h2 {
 
 .shape-1  {
     background-color: #bf6b2a;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     border-radius: 24px;
-    top: -40px;
-    left: -20px;
+    top: 40px;
+    left: -100px;
     z-index: -10;
 }
 
 .shape-2  {
-    background-color: #ffeddf;
+    background-color: #B4C5B6;
     width: 300px;
     height: 300px;
     position: absolute;
     border-radius: 24px;
     top: -140px;
-    left: -40px;
+    left: -10px;
     z-index: -20;
 }
 .shape-3  {
-    background-color: #ffeddf;
+    background-color: #de8948;
     width: 400px;
     height: 300px;
     position: absolute;
