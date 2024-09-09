@@ -72,6 +72,10 @@ body {
     position: relative;
 }
 
+button a {
+    text-decoration: none;
+    color: #331600;
+}
 
 .btn-outline-danger {
     transition: background-color 0.3s ease, color 0.3s ease; 
