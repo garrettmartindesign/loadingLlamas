@@ -1,0 +1,80 @@
+/*----Colors--------------------------------------------------------------------------------------
+--white: #ffffff;
+--off-white: #f4f4f4;
+--cream: #f2f5f4;
+--peach-pastel: #ffeddf;
+--peachy: #de8948;
+--boxxy-orange: #bf6b2a;
+--burnt-orange: #903e00;
+--dusk-orange: #331600;
+-----*/
+
+/*----Fonts---------------------------------------------------------------------------------------
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100-900;
+    font-style: normal;
+  }  
+-----*/
+
+
+body {
+    background-color: #F4F4F4;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #331600 !important;
+}
+
+.card1 {
+    background-color: white;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.custom-control-label:focus {
+    border-color: #bf6b2a;
+    background-color: #903e00 !important;
+}
+
+
+.btn-outline-danger {
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+
+
+
+.btn-check:checked + .btn-outline-danger {
+    background-color: #903e00;  
+    color: white;
+  }
+
+.btn-outline-danger:hover {
+    background-color: #bf6b2a; 
+    color: white;
+  }
+
+.btn-custom {
+    background-color: #903e00 !important;
+    color: white;
+}
+
+.btn-secondary {
+    width: 100%;
+    height: 38px;
+    padding: 10px;
+    background-color: white;
+    border: 1px #331600 solid;
+    color: #331600;
+}
+
+.no-account {
+    margin-top: 200px !important;
+}
