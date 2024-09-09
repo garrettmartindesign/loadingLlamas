@@ -41,7 +41,7 @@ body {
 
 .custom-control-label:focus {
     border-color: #bf6b2a;
-    background-color: #903e00 !important;
+    background-color: #331600 !important;
 }
 
 
@@ -76,5 +76,5 @@ body {
 }
 
 .no-account {
-    margin-top: 200px !important;
+    margin-top: 20px !important;
 }
