@@ -15,46 +15,29 @@
 
 </nav>
 <div class="container-sm" id="main">
-    <h3 class="mb-3 mt-3">Sign-In</h3>
-    <section class="card1 p-3 mb-3">
-        <div class="container d-flex justify-content-center">
-            <div class="sign-in-toggle mb-3">
-                <div class="mb-3 email-phone" role="group" aria-label="Horizontal radio toggle button group">
-                    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
-                    <label class="btn btn-outline-danger custom-control-label" for="vbtn-radio1">Email</label>
-                    
-                    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
-                    <label class="btn btn-outline-danger custom-control-label" for="vbtn-radio2">Phone</label>
-                </div>
+    <section class="pt-5">
+        <div class="container d-flex justify-content-center p-5">  
+            <h1 class="mb-3 mt-5">LLoading Llamas</h1>
+        </div>
+        <span class="shape-1"></span>
+        <span class="shape-2"></span>
+        <span class="shape-3"></span>
+        <div class="container d-flex justify-content-center mb-5">
+            <div >
+                <img src="imgs/mun7144_a_llama_illustration_for_a_moving_app._white_background_26ef4bb9-0df5-45f0-b35f-1cc5810c7a04 1.png" alt="Lloading Llama with boxes" width="200px">
             </div>
-        </div>    
-        
-        <div class="form-floating mb-2">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput" class="input-fields">Email address</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword" class="input-fields">Password</label>
-        </div>
-        <div class="container d-flex justify-content-center mb-4">
-            <div>
-                <a><h6>FORGOT PASSWORD</h6></a>
+        </div> 
+        <div class="container d-flex justify-content-center mb-2">
+            <div >
+                <img src="imgs/animations/lloamingLLamas-lloadingAnimation.gif" alt="Lloading Llama with boxes" width="60px">
             </div>
-        </div>
-        <div class="container d-flex justify-content-center">
-            <button type="button" class="btn btn-custom" disabled>Sign-In</button>
         </div> 
     </section>    
-    <div class="container d-flex justify-content-center mb-2">
-        <div >
-            <img src="imgs/mun7144_a_llama_illustration_for_a_moving_app._white_background_26ef4bb9-0df5-45f0-b35f-1cc5810c7a04 1.png" alt="Lloading Llama with boxes" width="80px">
-        </div>
-    </div> 
+    <!-------------Buttons---------------------------------------------
     <div class="no-account">
         <div class="container d-flex justify-content-center">   
             <div class="mb-3">
-                <a><h6>DONT HAVE AN ACCOUNT?</h6></a>
+                <a><h6>How can we help?</h6></a>
             </div>
         </div>    
         <div class="container">   
@@ -68,7 +51,18 @@
             </div>
         </div> 
     </div>    
-
+    ---------->
+    <!------------Auto Trigger to buttons?-------------------------------->
+    <script>
+        // Trigger fade-out and redirect after 5 seconds
+        setTimeout(function() {
+            document.body.classList.add('fade-out'); // Add fade-out class
+            setTimeout(function() {
+                window.location.href = "sign-in.html"; // Redirect after fade-out
+            }, 2000); // Wait for 5 seconds for fade-out effect
+        }, 3000); // Start the fade-out after 6 seconds
+    </script>
+    
 </div>
 
 
