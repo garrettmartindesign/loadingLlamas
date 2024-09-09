@@ -55,9 +55,12 @@ body {
 }
 
 .t_c_scroll {
-    height: 200px;
+    height: 120px;
     overflow: hidden;
-    scroll-behavior: auto;
+    scroll-behavior: vertical;
+    border: 1px #33160020 solid;
+    border-radius: 6px;
+    padding: 4px;
 }
 
 .custom-control-label:focus {
