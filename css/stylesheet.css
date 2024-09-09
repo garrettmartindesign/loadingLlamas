@@ -25,6 +25,12 @@
 -----*/
 
 
+a {
+    text-decoration: none;
+}
+.form-check-label {
+    text-decoration: underline;
+}
 
 body {
     background-color: #F4F4F4;
@@ -41,6 +47,19 @@ body {
     border-radius: 24px;
 }
 
+.file-upload {
+    border: 1px #331600 solid;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.t_c_scroll {
+    height: 200px;
+    overflow: hidden;
+    scroll-behavior: auto;
+}
+
 .custom-control-label:focus {
     border-color:#F4F4F4;
     background-color: #331600 !important;
@@ -49,6 +68,7 @@ body {
 #main {
     position: relative;
 }
+
 
 .btn-outline-danger {
     transition: background-color 0.3s ease, color 0.3s ease; 
@@ -65,6 +85,34 @@ h2 {
     font-family: "Lilita One", sans-serif;
     font-size: 40px;
     text-align: center;
+    color: #331600;
+}
+
+.condition-checks {
+    border: 1px #331600 solid;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+#verify-id {
+    background-color: #903e00;
+    align-items: center;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 8px;
+}
+
+.btn-term div:hover {
+    background-color: #331600 !important;
+    color: white;
+}
+
+.btn-term a:focus, .btn-term a:visited {
+    color: #331600;
+    text-decoration: underline;
+    background-color: #331600;
 }
 
 .btn-check:checked + .btn-outline-danger {
@@ -101,12 +149,12 @@ h2 {
 
 .shape-2  {
     background-color: #B4C5B6;
-    width: 300px;
+    width: 500px;
     height: 300px;
     position: absolute;
     border-radius: 24px;
-    top: -140px;
-    left: -10px;
+    top: -150px;
+    left: 40px;
     z-index: -20;
 }
 .shape-3  {
